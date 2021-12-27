@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/error/404",
+			"style": {
+				"navigationBarTitleText": "Not Found"
+			}
+		}, {
+			"path": "pages/changepwd/changepwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+
+		},
+		{
+			"path": "uni_modules/uni-upgrade-center/pages/version/list",
+			"style": {
+				"navigationBarTitleText": "版本列表"
+			}
+		}, {
+			"path": "uni_modules/uni-upgrade-center/pages/version/add",
+			"style": {
+				"navigationBarTitleText": "新版发布"
+			}
+		}, {
+			"path": "uni_modules/uni-upgrade-center/pages/version/detail",
+			"style": {
+				"navigationBarTitleText": "版本信息查看"
+			}
+		}
+	],
+	"subPackages": [],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
